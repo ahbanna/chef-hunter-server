@@ -1,56 +1,308 @@
 [
   {
     "id": 1,
-    "chef_picture": "https://example.com/chef1.jpg",
-    "chef_name": "Sudarat Soonthornnon",
+    "chef_picture": "https://i0.wp.com/instyle.mx/wp-content/uploads/2019/08/carolina-bazan.jpg?fit=800%2C800&ssl=1",
+    "chef_name": "Catherine Ann ",
     "experience": "20 years",
     "num_recipes": 50,
     "likes": 500,
-    "view_recipes_button": "https://example.com/chef1/recipes"
+    "view_recipes_button": "https://example.com/chef1/recipes",
+    "bio": "Catherine Ann Cora is an American professional chef, television personality, business person, and cookbook author. She is best known for her featured role as an Iron Chef on Iron Chef America and as co-host of Around the World in 80 Plates.",
+    "recipes": [
+      {
+        "name": "Classic Cheeseburger",
+        "recipe_img": "https://img.taste.com.au/TDf6WRg0/taste/2016/11/classic-cheeseburgers-109385-1.jpeg",
+        "ingredients": [
+          "Ground beef",
+          "Cheddar cheese",
+          "Burger buns",
+          "Tomatoes",
+          "Lettuce"
+        ],
+        "cooking_method": "1. Preheat grill or skillet to medium-high heat. 2. Form ground beef into patties and season with salt and pepper. 3. Grill or cook patties in skillet for 3-5 minutes per side. 4. Add cheese on top of patties and let it melt. 5. Assemble burger with toppings and serve.",
+        "rating": 4.5
+      },
+      {
+        "name": "Mac and Cheese",
+        "recipe_img": "https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg",
+        "ingredients": [
+          "Macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Flour",
+          "Milk"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to create a roux. 3. Slowly add milk while stirring to make a sauce. 4. Add shredded cheddar cheese and stir until melted. 5. Mix sauce with cooked macaroni and serve.",
+        "rating": 4.8
+      },
+      {
+        "name": "BBQ Ribs",
+        "recipe_img": "https://static.toiimg.com/photo/75428606.cms",
+        "ingredients": [
+          "Pork ribs",
+          "BBQ sauce",
+          "Garlic powder",
+          "Onion powder",
+          "Paprika"
+        ],
+        "cooking_method": "1. Preheat oven to 300°F. 2. Season pork ribs with garlic powder, onion powder, and paprika. 3. Wrap ribs tightly in aluminum foil and bake for 2-3 hours. 4. Unwrap ribs and brush with BBQ sauce. 5. Broil ribs for 3-5 minutes until caramelized. Serve with extra BBQ sauce.",
+        "rating": 4.7
+      }
+    ]
   },
   {
     "id": 2,
-    "chef_picture": "https://example.com/chef2.jpg",
-    "chef_name": "Andy Ricker",
+    "chef_picture": "https://media.cnn.com/api/v1/images/stellar/prod/180104113700-family-meal-nyc-eric-protrait-2.jpg?q=w_1800,h_2400,x_0,y_150,c_crop",
+    "chef_name": "Eric Ripert",
     "experience": "15 years",
     "num_recipes": 30,
     "likes": 300,
-    "view_recipes_button": "https://example.com/chef2/recipes"
+    "view_recipes_button": "https://example.com/chef2/recipes",
+    "bio": "Eric Frank Ripert born 2 March 1965) is a American chef, author, and television personality specializing in modern French cuisine and noted for his work with seafood. Ripert's flagship restaurant, Le Bernardin, located in New York City, has been ranked among the best restaurants in the world by culinary magazines and currently ranks No.36 on the annual list of The World's 50 Best Restaurants",
+    "recipes": [
+      {
+        "name": "Classic Cheeseburger",
+        "recipe_img": "https://img.taste.com.au/TDf6WRg0/taste/2016/11/classic-cheeseburgers-109385-1.jpeg",
+        "ingredients": [
+          "Ground beef",
+          "Cheddar cheese",
+          "Burger buns",
+          "Tomatoes",
+          "Lettuce"
+        ],
+        "cooking_method": "1. Preheat grill or skillet to medium-high heat. 2. Form ground beef into patties and season with salt and pepper. 3. Grill or cook patties in skillet for 3-5 minutes per side. 4. Add cheese on top of patties and let it melt. 5. Assemble burger with toppings and serve.",
+        "rating": 4.5
+      },
+      {
+        "name": "Mac and Cheese",
+        "recipe_img": "https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg",
+        "ingredients": [
+          "Macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Flour",
+          "Milk"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to create a roux. 3. Slowly add milk while stirring to make a sauce. 4. Add shredded cheddar cheese and stir until melted. 5. Mix sauce with cooked macaroni and serve.",
+        "rating": 4.8
+      },
+      {
+        "name": "BBQ Ribs",
+        "recipe_img": "https://static.toiimg.com/photo/75428606.cms",
+        "ingredients": [
+          "Pork ribs",
+          "BBQ sauce",
+          "Garlic powder",
+          "Onion powder",
+          "Paprika"
+        ],
+        "cooking_method": "1. Preheat oven to 300°F. 2. Season pork ribs with garlic powder, onion powder, and paprika. 3. Wrap ribs tightly in aluminum foil and bake for 2-3 hours. 4. Unwrap ribs and brush with BBQ sauce. 5. Broil ribs for 3-5 minutes until caramelized. Serve with extra BBQ sauce.",
+        "rating": 4.7
+      }
+    ]
   },
   {
     "id": 3,
-    "chef_picture": "https://example.com/chef3.jpg",
-    "chef_name": "Duangporn Songvisava",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2016/03/Thomas-Keller-1.jpg",
+    "chef_name": "Thomas Keller ",
     "experience": "18 years",
     "num_recipes": 45,
     "likes": 550,
-    "view_recipes_button": "https://example.com/chef3/recipes"
+    "view_recipes_button": "https://example.com/chef3/recipes",
+    "bio": "Thomas Aloysius Keller (born October 14, 1955) is an American chef, restaurateur, and cookbook author. He and his landmark Napa Valley restaurant, The French Laundry in Yountville, California, have won multiple awards from the James Beard Foundation, notably the Best California Chef in 1996, and the Best Chef in America in 1997. The restaurant is a perennial winner in the annual Restaurant Magazine list of the Top 50 Restaurants of the World.",
+    "recipes": [
+      {
+        "name": "Classic Cheeseburger",
+        "recipe_img": "https://img.taste.com.au/TDf6WRg0/taste/2016/11/classic-cheeseburgers-109385-1.jpeg",
+        "ingredients": [
+          "Ground beef",
+          "Cheddar cheese",
+          "Burger buns",
+          "Tomatoes",
+          "Lettuce"
+        ],
+        "cooking_method": "1. Preheat grill or skillet to medium-high heat. 2. Form ground beef into patties and season with salt and pepper. 3. Grill or cook patties in skillet for 3-5 minutes per side. 4. Add cheese on top of patties and let it melt. 5. Assemble burger with toppings and serve.",
+        "rating": 4.5
+      },
+      {
+        "name": "Mac and Cheese",
+        "recipe_img": "https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg",
+        "ingredients": [
+          "Macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Flour",
+          "Milk"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to create a roux. 3. Slowly add milk while stirring to make a sauce. 4. Add shredded cheddar cheese and stir until melted. 5. Mix sauce with cooked macaroni and serve.",
+        "rating": 4.8
+      },
+      {
+        "name": "BBQ Ribs",
+        "recipe_img": "https://static.toiimg.com/photo/75428606.cms",
+        "ingredients": [
+          "Pork ribs",
+          "BBQ sauce",
+          "Garlic powder",
+          "Onion powder",
+          "Paprika"
+        ],
+        "cooking_method": "1. Preheat oven to 300°F. 2. Season pork ribs with garlic powder, onion powder, and paprika. 3. Wrap ribs tightly in aluminum foil and bake for 2-3 hours. 4. Unwrap ribs and brush with BBQ sauce. 5. Broil ribs for 3-5 minutes until caramelized. Serve with extra BBQ sauce.",
+        "rating": 4.7
+      }
+    ]
   },
   {
     "id": 4,
-    "chef_picture": "https://example.com/chef4.jpg",
-    "chef_name": "Pim Techamuanvivit",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2016/03/alfred-portale-1.jpg",
+    "chef_name": "Alfred Portale",
     "experience": "12 years",
     "num_recipes": 25,
     "likes": 400,
-    "view_recipes_button": "https://example.com/chef4/recipes"
+    "view_recipes_button": "https://example.com/chef4/recipes",
+    "bio": "Alfred Portale (born July 5, 1954) is an American chef, author, and restaurateur known as a pioneer in the New American cuisine movement. After graduating top of his class from the Culinary Institute of America in 1981,[1] Portale became the chef at Gotham Bar and Grill in 1985 and took it to new heights with his beautiful plating and insistence on high-quality ingredients. Portale's first sous-chef at Gotham was Tom Valenti. Other notable chefs who have worked under Chef Portale include Bill Telepan, Wylie Dufresne, Tom Colicchio, Christopher Lee, and Jason Hall. The current chef de cuisine of Gotham Bar and Grill is Livio Velardo.",
+    "recipes": [
+      {
+        "name": "Classic Cheeseburger",
+        "recipe_img": "https://img.taste.com.au/TDf6WRg0/taste/2016/11/classic-cheeseburgers-109385-1.jpeg",
+        "ingredients": [
+          "Ground beef",
+          "Cheddar cheese",
+          "Burger buns",
+          "Tomatoes",
+          "Lettuce"
+        ],
+        "cooking_method": "1. Preheat grill or skillet to medium-high heat. 2. Form ground beef into patties and season with salt and pepper. 3. Grill or cook patties in skillet for 3-5 minutes per side. 4. Add cheese on top of patties and let it melt. 5. Assemble burger with toppings and serve.",
+        "rating": 4.5
+      },
+      {
+        "name": "Mac and Cheese",
+        "recipe_img": "https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg",
+        "ingredients": [
+          "Macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Flour",
+          "Milk"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to create a roux. 3. Slowly add milk while stirring to make a sauce. 4. Add shredded cheddar cheese and stir until melted. 5. Mix sauce with cooked macaroni and serve.",
+        "rating": 4.8
+      },
+      {
+        "name": "BBQ Ribs",
+        "recipe_img": "https://static.toiimg.com/photo/75428606.cms",
+        "ingredients": [
+          "Pork ribs",
+          "BBQ sauce",
+          "Garlic powder",
+          "Onion powder",
+          "Paprika"
+        ],
+        "cooking_method": "1. Preheat oven to 300°F. 2. Season pork ribs with garlic powder, onion powder, and paprika. 3. Wrap ribs tightly in aluminum foil and bake for 2-3 hours. 4. Unwrap ribs and brush with BBQ sauce. 5. Broil ribs for 3-5 minutes until caramelized. Serve with extra BBQ sauce.",
+        "rating": 4.7
+      }
+    ]
   },
   {
     "id": 5,
-    "chef_picture": "https://example.com/chef5.jpg",
-    "chef_name": "Jet Tila",
+    "chef_picture": "https://cdn.vox-cdn.com/thumbor/5r33U2LbQYThwibb7g5DoStG79E=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10878185/daniel-boulud-daniel-krieger-portrait.0.0.0.jpg",
+    "chef_name": "Daniel Boulud",
     "experience": "25 years",
     "num_recipes": 60,
     "likes": 800,
-    "view_recipes_button": "https://example.com/chef5/recipes"
+    "view_recipes_button": "https://example.com/chef5/recipes",
+    "bio": "Daniel Boulud (born 25 March 1955 in Saint-Pierre-de-Chandieu) is a French chef and restaurateur with restaurants in New York City, Palm Beach, Miami, Toronto, Montréal, Singapore, the Bahamas, the Berkshires and Dubai. He is best known for his eponymous restaurant Daniel, in New York City, which currently holds two Michelin stars.",
+    "recipes": [
+      {
+        "name": "Classic Cheeseburger",
+        "recipe_img": "https://img.taste.com.au/TDf6WRg0/taste/2016/11/classic-cheeseburgers-109385-1.jpeg",
+        "ingredients": [
+          "Ground beef",
+          "Cheddar cheese",
+          "Burger buns",
+          "Tomatoes",
+          "Lettuce"
+        ],
+        "cooking_method": "1. Preheat grill or skillet to medium-high heat. 2. Form ground beef into patties and season with salt and pepper. 3. Grill or cook patties in skillet for 3-5 minutes per side. 4. Add cheese on top of patties and let it melt. 5. Assemble burger with toppings and serve.",
+        "rating": 4.5
+      },
+      {
+        "name": "Mac and Cheese",
+        "recipe_img": "https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg",
+        "ingredients": [
+          "Macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Flour",
+          "Milk"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to create a roux. 3. Slowly add milk while stirring to make a sauce. 4. Add shredded cheddar cheese and stir until melted. 5. Mix sauce with cooked macaroni and serve.",
+        "rating": 4.8
+      },
+      {
+        "name": "BBQ Ribs",
+        "recipe_img": "https://static.toiimg.com/photo/75428606.cms",
+        "ingredients": [
+          "Pork ribs",
+          "BBQ sauce",
+          "Garlic powder",
+          "Onion powder",
+          "Paprika"
+        ],
+        "cooking_method": "1. Preheat oven to 300°F. 2. Season pork ribs with garlic powder, onion powder, and paprika. 3. Wrap ribs tightly in aluminum foil and bake for 2-3 hours. 4. Unwrap ribs and brush with BBQ sauce. 5. Broil ribs for 3-5 minutes until caramelized. Serve with extra BBQ sauce.",
+        "rating": 4.7
+      }
+    ]
   },
   {
     "id": 6,
-    "chef_picture": "https://example.com/chef6.jpg",
-    "chef_name": "Nong Poonsukwattana",
+    "chef_picture": "https://hips.hearstapps.com/hmg-prod/images/lead-h-14545018-1509725724.jpg?crop=0.501xw:1.00xh;0.409xw,0&resize=1200:*",
+    "chef_name": "Amanda Cohen",
     "experience": "10 years",
     "num_recipes": 20,
     "likes": 300,
-    "view_recipes_button": "https://example.com/chef6/recipes"
+    "view_recipes_button": "https://example.com/chef6/recipes",
+    "bio": "Amanda Cohen is the chef and owner of Dirt Candy restaurant in New York City.Although she specializes in vegetarian cuisine, she herself is not a vegetarian (although she used to be).Biography She graduated from the Natural Gourmet Cookery School and went on to work at (among other restaurants) Angelica's Kitchen, Bobby Flay’s Mesa Grill,and Blanche’s Organic Café. In 2008, she opened Dirt Candy.In 2012, she published the Dirt Candy Cookbook.In 2018, she was profiled in Maya Gallus's documentary film The Heat: A Kitchen (R)evolution",
+    "recipes": [
+      {
+        "name": "Classic Cheeseburger",
+        "recipe_img": "https://img.taste.com.au/TDf6WRg0/taste/2016/11/classic-cheeseburgers-109385-1.jpeg",
+        "ingredients": [
+          "Ground beef",
+          "Cheddar cheese",
+          "Burger buns",
+          "Tomatoes",
+          "Lettuce"
+        ],
+        "cooking_method": "1. Preheat grill or skillet to medium-high heat. 2. Form ground beef into patties and season with salt and pepper. 3. Grill or cook patties in skillet for 3-5 minutes per side. 4. Add cheese on top of patties and let it melt. 5. Assemble burger with toppings and serve.",
+        "rating": 4.5
+      },
+      {
+        "name": "Mac and Cheese",
+        "recipe_img": "https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg",
+        "ingredients": [
+          "Macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Flour",
+          "Milk"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to create a roux. 3. Slowly add milk while stirring to make a sauce. 4. Add shredded cheddar cheese and stir until melted. 5. Mix sauce with cooked macaroni and serve.",
+        "rating": 4.8
+      },
+      {
+        "name": "BBQ Ribs",
+        "recipe_img": "https://static.toiimg.com/photo/75428606.cms",
+        "ingredients": [
+          "Pork ribs",
+          "BBQ sauce",
+          "Garlic powder",
+          "Onion powder",
+          "Paprika"
+        ],
+        "cooking_method": "1. Preheat oven to 300°F. 2. Season pork ribs with garlic powder, onion powder, and paprika. 3. Wrap ribs tightly in aluminum foil and bake for 2-3 hours. 4. Unwrap ribs and brush with BBQ sauce. 5. Broil ribs for 3-5 minutes until caramelized. Serve with extra BBQ sauce.",
+        "rating": 4.7
+      }
+    ]
   }
 ]

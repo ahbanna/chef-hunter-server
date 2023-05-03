@@ -13,6 +13,20 @@ app.get("/", (req, res) => {
 app.get("/chef", (req, res) => {
   res.send(chef);
 });
+// app.get("/chef/:id", (req, res) => {
+//   const id = req.params.id;
+//   console.log(id);
+//   const chefrecipes = chef.find(d.id == id);
+//   res.send(chefrecipes);
+// });
+
+app.get("/chef/:id", (req, res) => {
+  const id = req.params.id;
+  console.log(id);
+  const chefrecipe = chef.find((d) => d.id == id);
+  res.send(chefrecipe);
+});
+
 app.listen(port, () => {
   console.log("2nd running");
 });
